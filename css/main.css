@@ -59,3 +59,16 @@
         text-decoration: none;
         color: red;
     }
+    #hero {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 100px;
+        margin-top: 50px;
+    }
+    form {
+        display: block;
+        margin-top: 20px;
+    }
