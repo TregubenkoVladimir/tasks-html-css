@@ -24,6 +24,7 @@
     .logo {
         display: flex;
         justify-self: start;
+        background-color:#eee ;
 
     }
     .logo > img {
@@ -190,6 +191,9 @@
         margin-top: 35px ;
         text-transform: uppercase;
        }
+       .btn {
+        background-color: #eee;
+       }
     footer {
         display: flex;
         flex-direction: row;
@@ -212,5 +216,31 @@
            
         
     }
+    .navbar {
+        display: flex;
+        --bs-navbar-padding-x: 10%;
+        flex-wrap: wrap;
+    }
+    .container-fluid {
+        
+            display: flex;
+            flex-wrap: wrap;
+            align-items: start;
+            justify-content: space-between;
+        }
+        .bg-light {
+            --bs-bg-opacity: 0;
+            background-color: #eee!important;
+        }
+        .navbar-toggler {
+            background-color: bisque;
+        }
+        .nav-link  {
+            font-size: 20px ;
+            text-align: center;
+            color: brown;
+        }
+      
   
+
     
